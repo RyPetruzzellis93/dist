@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Pokemon Site</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/jumbotron.css" rel="stylesheet">
+  <!-- Custom styles I added for flex-card display -->
+  <link href="css/card-style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Calculator</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </nav>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron container">
+    <div class="row">
+      <h1 class="col-xs-4">Pokemon</h1>
+    <div class="quick-search col-xs-4 pull-right">
+<form action="" id="form-id">
+<input id="source" type="text" placeholder="Input name or dex#">
+</form>
+
+<script type='template' id='widget-template'>
+    <div id="widget-data pull-right">
+          <h2><b>#{{Wnat}}:</b> {{Wname}}</h2>
+          <div>
+            <img src="{{Wsprite}}" />
+          </div>
+          <ul class="widget-list">
+            <li><b>Base Experience:</b> {{WExperience}}</li>
+            <li><b>Type I:</b> {{Wtypei}}</li>
+            <li><b>Type II:</b> {{Wtypeii}}</li>
+            <li><b>Height:</b> {{Wheight}}</li>
+            <li><b>Weight:</b> {{Wweight}}</li>
+            <li><b>Hit Points:</b> {{Whp}}</li>
+            <li><b>Attack:</b> {{Watk}}</li>
+            <li><b>Defense:</b> {{Wdef}}</li>
+            <li><b>Special Attack:</b> {{Wsa}}</li>
+            <li><b>Special Defense:</b> {{Wsd}}</li>
+            <li><b>Speed:</b> {{Wspeed}}</li>
+          </ul>
+    </div>
+</script>
+
+<div class="widget-result pull-right"></div>
+</div>
+    <div class="quick-contact widget"></div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- my html -->
+    <h3 class="page-title">Pokemon Library</h3>
+    <div id="grid-container">
+      <div class='flex-container'></div>
+    </div>
+    <!-- end of my html -->
+    <hr>
+
+    <footer>
+      <p>&copy; 2016 Company, Inc.</p>
+    </footer>
+  </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type='template' id='template'>
+      <div class="poke-info flex-item card-grid">
+        <div class="front">
+          <h2 class="poke-name">{{name}} <b>#{{nat}}</b></h2>
+          <div class="poke-img-container"><img  class="poke-img" src="{{image}}" /></div>
+
+                    <div class="stats-front">
+            <li><b>Type(s):</b> {{typei}}, {{typeii}}</li>
+            <li><b>Hit Points:</b> {{hp}}</li>
+            <li><b>Attack:</b> {{atk}}</li>
+            <li><b>Defense:</b> {{def}}</li>
+            <li><b>Special Attack:</b> {{sa}}</li>
+            <li><b>Special Defense:</b> {{sd}}</li>
+            <p class="message"><small>click or tap for more info...</small</p>
+          </div>
+        </div>
+        <div class="back">
+          <div class="stats-back">
+            <li><b>Gender:</b> {{gender}}</li>
+            <li><b>Evolves At/By:</b> {{evolvesatby}}</li>
+            <li><b>Evolves Into:</b> {{evolvesinto}}</li>
+            <div>
+              <div>
+              </div>
+            </script>
+
+            <script>
+              'use strict';
+              $(document).ready(function() {
+                function stamp() {
+                  $('.card-grid').flip({axis:'y',reverse:'toggle'});
+                }
+                setTimeout(stamp,50);
+              });
+            </script>
+
+            <script src= js/pull-data.js></script>
+            <script src="js/jquery.flip.js"></script>
+            <script src="js/api-widget.js"></script>
+
+          </body>
+          </html>

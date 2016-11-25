@@ -1,0 +1,5 @@
+#files to ignore
+
+#folder to ignore
+.DS_Store
+images

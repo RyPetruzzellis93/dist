@@ -1,0 +1,67 @@
+.page-title {
+	clear:both;
+	margin: 40px 0 0 35px;
+}
+
+.sprite {
+    width: 4%;
+    border: 1px solid #454545;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px #454545;
+}
+
+#grid-container {
+	max-width: 1024px;
+	margin:0 auto 0;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.poke-name {
+	font-size: 1.2em;
+	font-family:arial;
+    margin: 16px 0 0 -25px;
+    text-align: center;
+}
+
+.card-grid {
+	min-width: 300px;
+	height: 450px;
+	border-radius: 15px;
+	margin: 20px;
+	display: inline-block;
+}
+.front, .back {
+	height: 450px;
+	border:1px solid #000;
+	box-shadow: 2px 2px 6px #454545;
+	border-radius: 15px;
+}
+.front {
+	background-size: 100% 100%;
+	background-color: #ccc;
+	color:#000;
+}
+.back {
+	background-color:#efefef;
+	color:#000;
+	text-align: left;
+}
+
+.stats-front {
+	margin:0 0 0 32px;
+	padding:0;
+	line-height:1.2em;
+	text-align:left;
+}
+
+.stats-back {
+	margin:0 0 0 20px;
+	padding:0;
+	line-height:1.2em;
+	text-align:left;
+}
