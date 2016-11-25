@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +38,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Calculator</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="subscribe.html">Subscribe</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div><!--/.navbar-collapse -->
     </div>
@@ -82,65 +81,45 @@
     </div>
   </div>
 
-  <div class="container">
-
-    <!-- my html -->
-    <h3 class="page-title">Pokemon Library</h3>
-    <div id="grid-container">
-      <div class='flex-container'></div>
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//radvadnation.us14.list-manage.com/subscribe/post?u=83ebf8ab22505908e33739c70&amp;id=1c60638a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <h2>Subscribe to our mailing list</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+    <label for="mce-FNAME">First Name </label>
+    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+    <label for="mce-LNAME">Last Name </label>
+    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div class="mc-field-group">
+    <label for="mce-MMERGE3">Brief Message </label>
+    <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
+</div>
+    <div id="mce-responses" class="clear">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_83ebf8ab22505908e33739c70_1c60638a0f" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
-    <!-- end of my html -->
-    <hr>
-
-    <footer>
-      <p>&copy; 2016 Company, Inc.</p>
-    </footer>
-  </div> <!-- /container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script type='template' id='template'>
-      <div class="poke-info flex-item card-grid">
-        <div class="front">
-          <h2 class="poke-name">{{name}} <b>#{{nat}}</b></h2>
-          <div class="poke-img-container"><img  class="poke-img" src="{{image}}" /></div>
-
-                    <div class="stats-front">
-            <li><b>Type(s):</b> {{typei}}, {{typeii}}</li>
-            <li><b>Hit Points:</b> {{hp}}</li>
-            <li><b>Attack:</b> {{atk}}</li>
-            <li><b>Defense:</b> {{def}}</li>
-            <li><b>Special Attack:</b> {{sa}}</li>
-            <li><b>Special Defense:</b> {{sd}}</li>
-            <p class="message"><small>click or tap for more info...</small</p>
-          </div>
-        </div>
-        <div class="back">
-          <div class="stats-back">
-            <li><b>Gender:</b> {{gender}}</li>
-            <li><b>Evolves At/By:</b> {{evolvesatby}}</li>
-            <li><b>Evolves Into:</b> {{evolvesinto}}</li>
-            <div>
-              <div>
-              </div>
-            </script>
-
-            <script>
-              'use strict';
-              $(document).ready(function() {
-                function stamp() {
-                  $('.card-grid').flip({axis:'y',reverse:'toggle'});
-                }
-                setTimeout(stamp,50);
-              });
-            </script>
-
-            <script src= js/pull-data.js></script>
-            <script src="js/jquery.flip.js"></script>
+</form>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
             <script src="js/api-widget.js"></script>
-
-          </body>
-          </html>
+</body>
+</html>
