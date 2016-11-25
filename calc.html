@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Effectiveness Calculator</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/calc-style.css">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/jumbotron.css" rel="stylesheet">
+  <!-- Custom styles I added for flex-card display -->
+  <link href="css/card-style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand active" href="index.html">Pokemon!</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li ><a href="calc.html">Calculator</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </nav>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron container">
+    <div class="row">
+      <h1 class="col-xs-4">Pokemon</h1>
+    <div class="quick-search col-xs-4 pull-right">
+<form action="" id="form-id">
+<input id="source" type="text" placeholder="Input name or dex#">
+</form>
+
+<script type='template' id='widget-template'>
+    <div id="widget-data pull-right">
+          <h2><b>#{{Wnat}}:</b> {{Wname}}</h2>
+          <div>
+            <img src="{{Wsprite}}" />
+          </div>
+          <ul class="widget-list">
+            <li><b>Base Experience:</b> {{WExperience}}</li>
+            <li><b>Type I:</b> {{Wtypei}}</li>
+            <li><b>Type II:</b> {{Wtypeii}}</li>
+            <li><b>Height:</b> {{Wheight}}</li>
+            <li><b>Weight:</b> {{Wweight}}</li>
+            <li><b>Hit Points:</b> {{Whp}}</li>
+            <li><b>Attack:</b> {{Watk}}</li>
+            <li><b>Defense:</b> {{Wdef}}</li>
+            <li><b>Special Attack:</b> {{Wsa}}</li>
+            <li><b>Special Defense:</b> {{Wsd}}</li>
+            <li><b>Speed:</b> {{Wspeed}}</li>
+          </ul>
+    </div>
+</script>
+
+<div class="widget-result pull-right"></div>
+</div>
+    <div class="quick-contact widget"></div>
+    </div>
+  </div>
+<h2>Effectiveness Calculator</h2>
+<div id="inner-wrapper">
+<div id="checkboxes">
+<p><b>Note: </b>This calculator determines the effectiveness of each pokemon type as it compares to the type(s) of your choice. Select up to two options and determine the pokemon's ability and the current weather conditions of the battle.</p>
+	<form id = "form">
+    	<input class="single-checkbox" type="checkbox" name="rGroup" value="1" id="r1" />
+    	<label class="whatever normal" for="r1">normal</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="2" id="r2" />
+    	<label class="whatever fire" for="r2">fire</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="3" id="r3" />
+    	<label class="whatever water" for="r3">water</label>
+    	<input class="single-checkbox" type="checkbox" name="rGroup" value="4" id="r4" />
+    	<label class="whatever elec" for="r4">elec</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="5" id="r5" />
+    	<label class="whatever grass" for="r5">grass</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="6" id="r6" />
+    	<label class="whatever ice" for="r6">ice</label>
+    	<input class="single-checkbox" type="checkbox" name="rGroup" value="7" id="r7" />
+    	<label class="whatever fight" for="r7">fight</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="8" id="r8" />
+    	<label class="whatever poison" for="r8">poison</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="9" id="r9" />
+    	<label class="whatever ground" for="r9">ground</label>
+    	<input class="single-checkbox" type="checkbox" name="rGroup" value="10" id="r10" />
+    	<label class="whatever flying" for="r10">flying</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="11" id="r11" />
+    	<label class="whatever psych" for="r11">psych</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="12" id="r12" />
+    	<label class="whatever bug" for="r12">bug</label>
+    	<input class="single-checkbox" type="checkbox" name="rGroup" value="13" id="r13" />
+    	<label class="whatever rock" for="r13">rock</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="14" id="r14" />
+    	<label class="whatever ghost" for="r14">ghost</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="15" id="r15" />
+    	<label class="whatever dragon" for="r15">dragon</label>
+    	<input class="single-checkbox" type="checkbox" name="rGroup" value="16" id="r16" />
+    	<label class="whatever dark" for="r16">dark</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="17" id="r17" />
+    	<label class="whatever steel" for="r17">steel</label>
+    	<input class="single-checkbox"  type="checkbox" name="rGroup" value="18" id="r18" />
+    	<label class="whatever fairy" for="r18">fairy</label>
+    </form>
+</div>
+<div class="aws">
+<div class="column">
+	<span class="labels">Ability</span><br> <select id="def_ability">
+	<option value="0">None</option>
+	<option value="1">Thick Fat</option>
+	<option value="2">Heatproof</option>
+	<option value="3">Levitate</option>
+	<option value="4">Volt Absorb</option>
+	<option value="5">Water Absorb</option>
+	<option value="6">Dry Skin</option>
+	<option value="7">Flash Fire</option>
+	<option value="8">Sap Sipper</option>
+	<option value="9">Filter</option>
+	<option value="10">Wonder Guard</option>
+	</select>
+</div>
+<div class="column">
+	<span class="labels">Weather</span><br> <select id="def_weather">
+	<option value="0">None</option>
+	<option value="1">Drought</option>
+	<option value="2">Drizzle</option>
+	</select>
+</div>
+<div class="submit-btn">
+	<input type="submit" id="submit" value="Submit">
+</div>
+</div><!-- close aws  -->
+
+</div><!-- close inner wrapper -->
+
+<div id="content"></div>
+
+
+</div><!-- close outer wrapper -->
+
+<script src="js/calc.js"></script>
+</body>
+</html>
