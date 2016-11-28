@@ -46,10 +46,63 @@
   </nav>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron container">
+    <div class="row">
+      <h1 class="col-xs-4">Pokemon</h1>
+    <div class="quick-search col-xs-4 pull-right">
+<form action="" id="form-id">
+<input id="source" type="text" placeholder="Input name or dex#">
+</form>
 
-            <script src= js/pull-data.js></script>
-            <script src="js/jquery.flip.js"></script>
-            <script src="js/api-widget.js"></script>
+<script type='template' id='widget-template'>
+    <div id="widget-data pull-right">
+          <h2><b>#{{Wnat}}:</b> {{Wname}}</h2>
+          <div>
+            <img src="{{Wsprite}}" />
+          </div>
+          <ul class="widget-list">
+            <li><b>Base Experience:</b> {{WExperience}}</li>
+            <li><b>Type I:</b> {{Wtypei}}</li>
+            <li><b>Type II:</b> {{Wtypeii}}</li>
+            <li><b>Height:</b> {{Wheight}}</li>
+            <li><b>Weight:</b> {{Wweight}}</li>
+            <li><b>Hit Points:</b> {{Whp}}</li>
+            <li><b>Attack:</b> {{Watk}}</li>
+            <li><b>Defense:</b> {{Wdef}}</li>
+            <li><b>Special Attack:</b> {{Wsa}}</li>
+            <li><b>Special Defense:</b> {{Wsd}}</li>
+            <li><b>Speed:</b> {{Wspeed}}</li>
+          </ul>
+    </div>
+</script>
+
+<div class="widget-result pull-right"></div>
+</div>
+    <div class="quick-contact widget"></div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- my html -->
+    <h3 class="page-title">Pokemon Library</h3>
+    <div id="grid-container">
+      <div class='flex-container'></div>
+    </div>
+    <!-- end of my html -->
+    <hr>
+
+    <footer>
+      <p>&copy; 2016 Company, Inc.</p>
+    </footer>
+  </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/api-widget.js"></script>
 
           </body>
           </html>
