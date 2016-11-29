@@ -68,7 +68,7 @@
 
     
     }
-		#inner-wrapper {float:left; width:60%;margin:5px 0 0 5px;}
+
 		#content {float:right; width:37%;margin-top:6px;}
 		#submit{display:inline-block;margin:15px 0;text-align: center;}
 		.labels {
@@ -76,13 +76,14 @@
 			margin-left:4px;
 		}
 		.column {
-			display:block;
+			display:inline-block;
 			margin:0px;
 			padding: 5px 0;
 			
 		}
 		.submit-btn {
 			margin-left:30px;
+			display: inline-block;
 		}
 		select {
 			min-width:120px;
@@ -93,9 +94,13 @@
 		}
 		.tbl_heading {
 			font-weight:bold;
+			border: 1px solid #000;
 			background-color:#d58747;
 			color:#ffffff;
 			text-align:left;
+		}
+		.cell {
+			border: 1px solid #000;
 		}
 		.dmg_immune {
 			background-color:#aaaaaa;

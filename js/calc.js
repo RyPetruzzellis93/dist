@@ -96,7 +96,7 @@ $(document).ready(function(){
 			output = '<div id="table-output"><table class="output" cellspacing="1" cellpadding="3"> <tr>';
 			for (i=0; i<=17; i++)
 			{
-				output += '<td class="tbl_heading">' + type_name[i] + '</td><td class="'+ color[i] +'">x' + result[i] + '</td></tr>';
+				output += '<td class="tbl_heading">' + type_name[i] + '</td><td class="'+ color[i] +' cell">x' + result[i] + '</td></tr>';
 			}
 			output += '</tr></table></div>';
 			
