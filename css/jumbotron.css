@@ -3,3 +3,23 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.quick-search {
+    background-color: #fffcce;
+    padding: 10px;
+    margin-right: 15px;
+    border: 5px solid #dd9b11;
+    border-radius: 5px;
+    min-width: 333px;
+    min-height: 333px;
+}
+
+form.widget-form {
+    width: 179px;
+    margin-left: 23%;	
+}
+
+.widget-content {
+	max-width: 100%;
+    margin: 0px 30px;
+}
