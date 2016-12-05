@@ -56,23 +56,19 @@
 
 <script type='template' id='widget-template'>
     <div id="widget-data pull-right">
-          <h2><b>#{{Wnat}}:</b> {{Wname}}</h2>
-          <div>
+          <h2 class="widget-title"><b>#{{Wnat}}:</b> {{Wname}}</h2>
+          <div class="sprite-container">
             <img src="{{Wsprite}}" />
           </div>
           <ul class="widget-list">
-            <li><b>Base Experience:</b> {{WExperience}}</li>
             <li><b>Type I:</b> {{Wtypei}}</li>
             <li><b>Type II:</b> {{Wtypeii}}</li>
             <li><b>Height:</b> {{Wheight}}</li>
             <li><b>Weight:</b> {{Wweight}}</li>
-            <li><b>Hit Points:</b> {{Whp}}</li>
-            <li><b>Attack:</b> {{Watk}}</li>
-            <li><b>Defense:</b> {{Wdef}}</li>
-            <li><b>Special Attack:</b> {{Wsa}}</li>
-            <li><b>Special Defense:</b> {{Wsd}}</li>
-            <li><b>Speed:</b> {{Wspeed}}</li>
           </ul>
+           <canvas id="myChart" width="300" height="160"></canvas>
+
+
     </div>
 </script>
 
@@ -107,18 +103,20 @@
     <script type='template' id='template'>
       <div class="poke-info flex-item card-grid">
         <div class="front">
-          <h2 class="poke-name">{{name}} <b>#{{nat}}</b></h2>
+          <h2 class="poke-name"><b>No.{{nat}}</b> {{name}}</h2>
           <div class="poke-img-container"><img  class="poke-img" src="{{image}}" /></div>
 
-                    <div class="stats-front">
+        <div class="stats-front">
+          <ul class="stat-list">
             <li><b>Type(s):</b> {{typei}}, {{typeii}}</li>
             <li><b>Hit Points:</b> {{hp}}</li>
             <li><b>Attack:</b> {{atk}}</li>
             <li><b>Defense:</b> {{def}}</li>
             <li><b>Special Attack:</b> {{sa}}</li>
             <li><b>Special Defense:</b> {{sd}}</li>
-            <p class="message"><small>click or tap for more info...</small</p>
-          </div>
+          </ul>
+            <p class="message"><small>tap for back-side info</small</p>
+        </div>
         </div>
         <div class="back">
           <div class="stats-back">
@@ -143,6 +141,7 @@
             <script src= js/pull-data.js></script>
             <script src="js/jquery.flip.js"></script>
             <script src="js/api-widget.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
           </body>
           </html>
