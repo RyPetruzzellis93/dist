@@ -28,10 +28,12 @@
 }
 
 .poke-name {
-	font-size: 30px;
-	font-family:arial;
-    margin: 16px 0 0 -25px;
+    font-size: 28px;
+    font-family: arial;
+    margin: 19px 0 0 0px;
     text-align: center;
+    width: 100%;
+    color: #fffcce;
 }
 
 .poke-img-container {
@@ -89,7 +91,7 @@
 }
 
 .stats-back {
-	margin:0 0 0 20px;
+	margin: 50px 34px;
 	padding:0;
 	line-height:1.2em;
 	text-align:left;

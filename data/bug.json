@@ -18,7 +18,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 7",
+    "EvolvesAtBy":"7",
     "EvolvesInto":"Metapod",
     "Image":"../images/010.png"
   },
@@ -41,7 +41,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"Caterpie",
-    "EvolvesAtBy":"Lv. 10",
+    "EvolvesAtBy":"10",
     "EvolvesInto":"Butterfree",
     "Image":"../images/011.png"
   },
@@ -87,7 +87,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 7",
+    "EvolvesAtBy":"7",
     "EvolvesInto":"Kakuna",
     "Image":"../images/013.png"
   },
@@ -110,7 +110,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"Weedle",
-    "EvolvesAtBy":"Lv. 10",
+    "EvolvesAtBy":"10",
     "EvolvesInto":"Beedrill",
     "Image":"../images/014.png"
   },
@@ -156,7 +156,7 @@
     "AbilityII":"Dry Skin",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 24",
+    "EvolvesAtBy":"24",
     "EvolvesInto":"Parasect",
     "Image":"../images/046.png"
   },
@@ -202,7 +202,7 @@
     "AbilityII":"Tinted Lens",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 31",
+    "EvolvesAtBy":"31",
     "EvolvesInto":"Venemoth",
     "Image":"../images/048.png"
   },
@@ -248,7 +248,7 @@
     "AbilityII":"Technician",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Trade w. Metal Coat",
+    "EvolvesAtBy":"Trade *",
     "EvolvesInto":"Scizor",
     "Image":"../images/123.png"
   },
@@ -294,7 +294,7 @@
     "AbilityII":"Early Bird",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 18",
+    "EvolvesAtBy":"18",
     "EvolvesInto":"Ledian",
     "Image":"../images/165.png"
   },
@@ -340,7 +340,7 @@
     "AbilityII":"Insomnia",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 22",
+    "EvolvesAtBy":"22",
     "EvolvesInto":"Ariados",
     "Image":"../images/167.png"
   },
@@ -386,7 +386,7 @@
     "AbilityII":"Compoundeyes",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Teach AncientPower and Level Up",
+    "EvolvesAtBy":"-*-",
     "EvolvesInto":"Yanmega",
     "Image":"../images/193.png"
   },
@@ -409,7 +409,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 31",
+    "EvolvesAtBy":"31",
     "EvolvesInto":"Forretress",
     "Image":"../images/204.png"
   },
@@ -524,7 +524,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 7 (depends on personality value)",
+    "EvolvesAtBy":"7 *",
     "EvolvesInto":"Silcoon, Cascoon",
     "Image":"../images/265.png"
   },
@@ -547,7 +547,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"Wurmple",
-    "EvolvesAtBy":"Lv. 10",
+    "EvolvesAtBy":"10",
     "EvolvesInto":"Beautifly",
     "Image":"../images/266.png"
   },
@@ -593,7 +593,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"Wurmple",
-    "EvolvesAtBy":"Lv. 10",
+    "EvolvesAtBy":"10",
     "EvolvesInto":"Dustox",
     "Image":"../images/268.png"
   },
@@ -639,7 +639,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 22",
+    "EvolvesAtBy":"22",
     "EvolvesInto":"Masquerain",
     "Image":"../images/283.png"
   },
@@ -685,7 +685,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 20, Free space in party",
+    "EvolvesAtBy":"20 *",
     "EvolvesInto":"Ninjask, Shedinja",
     "Image":"../images/290.png"
   },
@@ -800,7 +800,7 @@
     "AbilityII":"",
     "Gender":"M (87.5%)",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 40",
+    "EvolvesAtBy":"40",
     "EvolvesInto":"Armaldp",
     "Image":"../images/347.png"
   },
@@ -846,7 +846,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 10",
+    "EvolvesAtBy":"10",
     "EvolvesInto":"Kricketune",
     "Image":"../images/401.png"
   },
@@ -892,7 +892,7 @@
     "AbilityII":"",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 20 (F w. Plant/Sandy/Trash Cloak, M)",
+    "EvolvesAtBy":"20 *",
     "EvolvesInto":"Wormadam, Mothim",
     "Image":"../images/412.png"
   },
@@ -1007,7 +1007,7 @@
     "AbilityII":"",
     "Gender":"M (87.5%)",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 21 (F)",
+    "EvolvesAtBy":"21 *",
     "EvolvesInto":"Vespiquen",
     "Image":"../images/415.png"
   },
@@ -1053,7 +1053,7 @@
     "AbilityII":"Sniper",
     "Gender":"50/50",
     "EvolvesFrom":"--",
-    "EvolvesAtBy":"Lv. 40",
+    "EvolvesAtBy":"40",
     "EvolvesInto":"Drapion",
     "Image":"../images/451.png"
   },
