@@ -27,6 +27,8 @@ var pokeTemplate = function(data) {
 		.replace( /{{sa}}/, value.SA)
 		.replace( /{{typei}}/, value.TypeI)
 		.replace( /{{typeii}}/, value.TypeII)
+		.replace( /{{abilityi}}/, value.AbilityI)
+		.replace( /{{abilityii}}/, value.AbilityII)
 		.replace( /{{evolvesatby}}/, value.EvolvesAtBy)
 		.replace( /{{evolvesinto}}/, value.EvolvesInto)
 		.replace( /{{image}}/, local+value.Image)

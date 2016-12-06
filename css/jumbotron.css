@@ -6,9 +6,13 @@ body {
 }
 
 .jumbotron {
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-	background-color: #7d8446;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #96c43d;
+    background-image: url(../images/background-bug.jpg);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: -170px;
 }
 
 .body-cont {
