@@ -29,7 +29,7 @@
     color: #FFF;
     display: inline-block;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 2%;
     margin-bottom: 25px;
 }
 
@@ -69,7 +69,14 @@
     
     }
 
-		#content {float:right; width:37%;margin-top:6px;}
+		#content {
+			float:right; width:31%;
+			margin-top:6px;
+			background-color: #fffcce;
+			border: 5px solid #DD9B11;
+			border-radius: 6px;
+		}
+
 		#submit{display:inline-block;margin:15px 0;text-align: center;}
 		.labels {
 			font-size:1.2em;
@@ -90,6 +97,8 @@
 		}
 		.output {
 			background-color:#000000;
+			width: 100%;
+			margin: 4px 0;
 			text-align:center;
 		}
 		.tbl_heading {
@@ -98,6 +107,7 @@
 			background-color:#d58747;
 			color:#ffffff;
 			text-align:left;
+			padding: 1px;
 		}
 		.cell {
 			border: 1px solid #000;
