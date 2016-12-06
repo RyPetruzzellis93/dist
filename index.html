@@ -77,11 +77,11 @@
     <div class="quick-contact widget"></div>
     </div>
   </div>
-
-  <div class="container">
+ 
+  <div class="container body-cont">
 
     <!-- my html -->
-    <h3 class="page-title">Pokemon Library</h3>
+    <h3 class="page-title">Natioal Bug Pokedex</h3>
     <div id="grid-container">
       <div class='flex-container'></div>
     </div>
@@ -107,6 +107,7 @@
           <div class="poke-img-container"><img  class="poke-img" src="{{image}}" /></div>
 
         <div class="stats-front">
+         <p class="message"><small>FLIP!</small</p>
           <ul class="stat-list">
             <li><b>Type(s):</b> {{typei}}, {{typeii}}</li>
             <li><b>Hit Points:</b> {{hp}}</li>
@@ -114,15 +115,18 @@
             <li><b>Defense:</b> {{def}}</li>
             <li><b>Special Attack:</b> {{sa}}</li>
             <li><b>Special Defense:</b> {{sd}}</li>
-          </ul>
-            <p class="message"><small>tap for back-side info</small</p>
+            <br>
+            <li><b>Base Stat Total:</b> {{totalstat}}</li>
+          </ul></b>
         </div>
         </div>
         <div class="back">
           <div class="stats-back">
+            <ul class="stat-list">
             <li><b>Gender:</b> {{gender}}</li>
             <li><b>Evolves At/By:</b> {{evolvesatby}}</li>
             <li><b>Evolves Into:</b> {{evolvesinto}}</li>
+            </ul>
             <div>
               <div>
               </div>

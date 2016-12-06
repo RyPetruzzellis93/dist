@@ -2,6 +2,19 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  background-image: url(../images/seamless-green-texture-composition.jpg);
+}
+
+.jumbotron {
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.body-cont {
+	
+	background-color: #e0e799;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 .quick-search {
@@ -40,4 +53,8 @@ form.widget-form {
 
 .widget-title {
 	text-align: center;
+}
+
+.form-class {
+	margin: 30px;
 }

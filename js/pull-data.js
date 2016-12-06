@@ -2,7 +2,7 @@
 'use strict';
 
 $.ajax({
-	url: '../dist/data/mydata.json',
+	url: '../dist/data/bug.json',
 	dataType: 'json',
 	type: 'get',
 	cache: false,
@@ -29,6 +29,7 @@ var pokeTemplate = function(data) {
 		.replace( /{{typeii}}/, value.TypeII)
 		.replace( /{{evolvesatby}}/, value.EvolvesAtBy)
 		.replace( /{{evolvesinto}}/, value.EvolvesInto)
-		.replace( /{{image}}/, local+value.Image);
+		.replace( /{{image}}/, local+value.Image)
+		.replace( /{{totalstat}}/, value.Total);
 	});
 }

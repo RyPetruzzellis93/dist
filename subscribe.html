@@ -48,84 +48,84 @@
   <div class="jumbotron container">
     <div class="row">
       <h1 class="col-xs-4">Pokemon</h1>
-    <div class="quick-search col-xs-4 pull-right">
-<form action="" class="widget-form" id="form-id">
-<input id="source" type="text" placeholder="Input name or dex#">
-</form>
+      <div class="quick-search col-xs-4 pull-right">
+        <form action="" class="widget-form" id="form-id">
+          <input id="source" type="text" placeholder="Input name or dex#">
+        </form>
 
-<script type='template' id='widget-template'>
-    <div id="widget-data widget-content pull-right">
-          <h2 class="widget-title"><b>#{{Wnat}}:</b> {{Wname}}</h2>
-          <div class="sprite-container">
-            <img src="{{Wsprite}}" />
+        <script type='template' id='widget-template'>
+          <div id="widget-data widget-content pull-right">
+            <h2 class="widget-title"><b>#{{Wnat}}:</b> {{Wname}}</h2>
+            <div class="sprite-container">
+              <img src="{{Wsprite}}" />
+            </div>
+            <ul class="widget-list">
+              <li><b>Type I:</b> {{Wtypei}}</li>
+              <li><b>Type II:</b> {{Wtypeii}}</li>
+              <li><b>Height:</b> {{Wheight}}</li>
+              <li><b>Weight:</b> {{Wweight}}</li>
+            </ul>
+
+            <canvas id="myChart" width="300" height="160"></canvas>
+
           </div>
-          <ul class="widget-list">
-            <li><b>Type I:</b> {{Wtypei}}</li>
-            <li><b>Type II:</b> {{Wtypeii}}</li>
-            <li><b>Height:</b> {{Wheight}}</li>
-            <li><b>Weight:</b> {{Wweight}}</li>
-          </ul>
+        </script>
 
-        <canvas id="myChart" width="300" height="160"></canvas>
-
-    </div>
-</script>
-
-<div class="widget-result widget-content pull-right"></div>
-</div>
-    <div class="quick-contact widget"></div>
+        <div class="widget-result widget-content pull-right"></div>
+      </div>
     </div>
   </div>
 
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
+  <!-- Begin MailChimp Signup Form -->
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
     #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
     /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="//radvadnation.us14.list-manage.com/subscribe/post?u=83ebf8ab22505908e33739c70&amp;id=1c60638a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-    <h2>Subscribe to our mailing list</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-<div class="mc-field-group">
-    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-    <label for="mce-FNAME">First Name </label>
-    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-    <label for="mce-LNAME">Last Name </label>
-    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-</div>
-<div class="mc-field-group">
-    <label for="mce-MMERGE3">Brief Message </label>
-    <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
-</div>
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_83ebf8ab22505908e33739c70_1c60638a0f" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+  </style>
+  <div class="container body-cont">
+    <div id="mc_embed_signup">
+      <form class="form-class" action="//radvadnation.us14.list-manage.com/subscribe/post?u=83ebf8ab22505908e33739c70&amp;id=1c60638a0f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <h2>Subscribe to our mailing list</h2>
+          <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+          <div class="mc-field-group">
+            <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+            </label>
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-FNAME">First Name </label>
+            <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-LNAME">Last Name </label>
+            <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+          </div>
+          <div class="mc-field-group">
+            <label for="mce-MMERGE3">Brief Message </label>
+            <input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
+          </div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_83ebf8ab22505908e33739c70_1c60638a0f" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+      </form>
     </div>
-</form>
-
     <!-- end of my html -->
     <hr>
-
+  </div> <!-- /container -->
+   
     <footer class="panel-footer text-center center-block">
       <p>&copy; 2016 Company, Inc.</p>
     </footer>
-  </div> <!-- /container -->
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/api-widget.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/api-widget.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 </body>
 </html>
